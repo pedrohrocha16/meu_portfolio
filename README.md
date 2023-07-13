@@ -1,9 +1,7 @@
 ## <h1><em>Olá pessoas! </em>😁</h1> 
 
 
-<h3>🌟Esse é o primeiro projeto que estou desenvolvendo utilizando ReactJs. O projeto é sobre meu portfólio, onde mostra algumas informações sobre mim, projetos desenvolvidos e página de contato.<h3>
-
-<h4>🌟Para melhor visualização, acesse via mobile.</h4>
+<h3>🌟Esse projeto que estou desenvolvendo utilizando ReactJs (Hooks,Router e etc) é sobre meu portfólio, onde mostra algumas informações sobre mim, projetos desenvolvidos e página de contato.<h3>
 
 #
 
@@ -11,7 +9,7 @@
 
 #
 
-<a href= "https://meu-portfolio-pedrohrocha.vercel.app/">🔥Deploy🔥</a>
+<a href= "https://meu-portfolio-six-pi.vercel.app/">🔥Deploy🔥</a>
 
 #
 
