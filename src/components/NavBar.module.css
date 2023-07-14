@@ -1,24 +1,32 @@
 .nav {
-   background-color: rgb(26, 26, 26);
    display: flex;
    font-family: 'Orbitron', sans-serif;
-   height: 160px;
-   margin: 0;
+   height: 100px;
+   justify-content: space-around;
+   margin: 0 auto;
    padding: 0;
    width: 100vw;
 }
-.nav img {
-   width: 120px;
+.nav span {
+   color: rgb(0, 184, 216);
+   font-weight: 800;
+   opacity: 0.8;
+   transition: 0.3s;
+}
+.nav span:hover {
+   text-shadow: 1px 1px 25px rgb(0, 183, 255);
+   opacity: 1;
 }
 .navbar_icon {
    background-color: #cececea6;
-   border-radius: 3px;
-   font-size: 18px;
-   margin-right: 1.5rem;
-   width: 50px;
+   font-size: 15px;
+   height: 30px;
+   margin: 0 1.5rem 0 0;
+   padding: 0;
+   width: 35px;
 }
 .navbar_icon:active {
-   background-color: linear-gradient(180deg, rgb(26, 26, 26) 50%, rgb(54,54,54) 115%);
+   background-color: whitesmoke;
 }
 .offcanvas_header {
    color: rgb(3, 3, 3);
@@ -39,37 +47,29 @@
    text-decoration: none;
 }
 .nav_link:hover {
-   color: #00ccff;
    opacity: 0.6;
 }
 .nav_link:focus{
-   color: #00ccff;
    opacity: 1;
    
 }
 
 @media (min-width: 576px) {
    .offcanvas_body {
-      background-color: rgb(26, 26, 26);
       display: flex;
       margin-right: 10vw;
+   }
+   .nav {
+      margin-left: 10vw;
+
    }
    .nav_link {
       color: rgb(247, 247, 247);
       font-family: 'Orbitron', sans-serif;
+      font-size: 18px;
       font-weight: 700;
-      margin: 0 0 0 1.5rem;
+      margin: 0 0 0 1.2rem;
       opacity: 0.2;
       transition: 0.9s;
       }
-   .nav_link:hover {
-      color: #00ccff;
-      opacity: 0.6;
-   }
-   .nav_link:focus{
-      color: #00ccff;
-      opacity: 1;
-      
-   }
-
 }

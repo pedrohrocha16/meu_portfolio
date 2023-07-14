@@ -1,10 +1,10 @@
 import styles from './Home.module.css'
+import imReal from '../assets/img/im-real.png'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <section>
+    </section>
   )
 }
 

@@ -12,8 +12,8 @@ function OffcanvasExample() {
       <nav>
          {['sm'].map((expand) => (
             <Navbar key={expand} expand={expand} className={styles.nav}>
-               <Navbar.Brand><img src={logo} alt='logo' /></Navbar.Brand>
-               <Navbar.Toggle style={{ border: "none", boxShadow: "none" }} className={styles.navbar_icon} />
+               <Navbar.Brand><span>Pedro H. Rocha</span></Navbar.Brand>
+               <Navbar.Toggle style={{ textAlign:"center", border: "none", boxShadow: "none" }} className={styles.navbar_icon} />
                <Navbar.Offcanvas
                   id={`offcanvasNavbar-expand-${expand}`}
                   aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
