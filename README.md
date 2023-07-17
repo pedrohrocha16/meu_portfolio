@@ -1,15 +1,11 @@
 ## <h1><em>Olá pessoas! </em>😁</h1> 
 
 
-<h3>🌟Esse projeto que estou desenvolvendo utilizando ReactJs (Hooks,Router e etc) é sobre meu portfólio, onde mostra algumas informações sobre mim, projetos desenvolvidos e página de contato.<h3>
+<h3>🌟Apresento a vocês, meu portfólio, ainda em construção, mas, a idéia principal é aprensentar minha bio, stacks, projetos e área de contato com todas minhas redes sociais. O projeto está sendo construído com React, Bootstrap e Tailwind.<h3>
 
 #
 
-<p>🔨 ReactJs</p>
-
-#
-
-<a href= "https://meu-portfolio-six-pi.vercel.app/">🔥Deploy🔥</a>
+<a href= "https://meu-portfolio-pedro-h-rocha.vercel.app/">🔥Deploy🔥</a>
 
 #
 
