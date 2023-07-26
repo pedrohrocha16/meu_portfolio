@@ -61,22 +61,23 @@ h3 {
 
 h6 {
    color: gold;
+   font-size: 15px;
+   font-family: 'Orbitron', sans-serif;
+   ;
 }
 
 .icons i {
    color: white;
    margin-left: 0.5rem;
    margin-right: 0.5rem;
-   opacity: 0.5;
-   transition: 0.9s;
+   opacity: 0.2;
+   transition: 1.5s;
 }
 
 .icons i:hover {
    color: rgb(3, 218, 247);
    opacity: 1;
 }
-
-
 
 
 /* 
@@ -94,6 +95,7 @@ RESPONSIVE */
       font-size: 25px;
    }
 }
+
 @media (min-width: 550px) {
    img {
       border-radius: 30px;
@@ -167,5 +169,8 @@ RESPONSIVE */
       margin-top: 3rem;
       transition: 2s;
       width: 380px;
+   }
+   .icons {
+      font-size: 40px;
    }
 }
