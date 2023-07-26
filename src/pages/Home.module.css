@@ -3,19 +3,16 @@ section {
    color: white;
    display: flex;
    flex-direction: column;
-   height: 100%;
    justify-content: center;
-   width: 100%;
+   height: 85vh;
 }
 
 .main_text {
    align-items: center;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
    height: 220px;
-   margin: 0 auto;
-   padding: 0;
+   justify-content: center;
+   width: 100%;
 }
 
 img {
@@ -35,28 +32,77 @@ h3 {
 }
 
 .profit {
-   color: rgb(247, 223, 3);
+   color: gold;
    font-family: 'Orbitron', sans-serif;
    font-size: 18px;
 }
 
-/* RESPONSIVE */
+.sobre {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   margin-top: 3rem;
+   padding: 0;
+   text-align: center;
+   width: 90vw;
+}
 
-@media (min-width: 650px) {
-   section {
-      flex-direction: row;
-      margin-left: 20vw;
-      margin-right: 20vw;
-      width: 100vw;
-   }
+.sobre span {
+   color: rgb(3, 218, 247);
+   font-size: 18px;
+}
 
+.icons {
+   font-size: 30px;
+   height: 120px;
+   margin-top: 5rem;
+   width: 300px;
+}
+
+h6 {
+   color: gold;
+}
+
+.icons i {
+   color: white;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   opacity: 0.5;
+   transition: 0.9s;
+}
+
+.icons i:hover {
+   color: rgb(3, 218, 247);
+   opacity: 1;
+}
+
+
+
+
+/* 
+RESPONSIVE */
+
+@media (min-width: 550px) {
    img {
       border-radius: 30px;
-      width: 250px;
+      width: 200px;
+   }
+
+   section {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      height: 85vh;
+   }
+
+   .icons {
+      margin-left: 1rem;
+      margin-top: 1rem;
+      width: auto;
    }
 
    .main_text {
-      margin-right: 10vw;
+      height: 300px;
       width: 300px;
    }
 
@@ -71,24 +117,27 @@ h3 {
    .profit {
       font-size: 20px;
    }
+
 }
 
 @media (min-width: 1000px) {
-   .main_text {
-      margin-right: 15vw;
-      justify-content: flex-start
+   img {
+      width: 300px;
    }
+
 }
 
 @media (min-width: 1300px) {
    section {
-      align-items: flex-start;
+      justify-content: center;
+      margin: 0;
    }
+
    .main_text {
       height: 500px;
       margin-right: 20vw;
-      margin-top: 5rem;
    }
+
    h3 {
       font-size: 40px;
    }
@@ -100,9 +149,10 @@ h3 {
    .profit {
       font-size: 30px;
    }
+
    img {
       margin-top: 3rem;
       transition: 2s;
-      width: 280px;
+      width: 380px;
    }
 }

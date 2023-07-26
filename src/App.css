@@ -1,5 +1,6 @@
 .container {
+   align-items: center;
    display: flex;
-   height: 1000px;
-   justify-content: center;
+   flex-direction: column;
+   height: 80vh;
 }

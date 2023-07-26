@@ -9,6 +9,7 @@ import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import Contact from './pages/Contact.jsx'
 import ErrorPage from './pages/Errorpage.jsx'
+import History from './pages/History.jsx'
 
 const router = createHashRouter([
   {
@@ -27,6 +28,10 @@ const router = createHashRouter([
       {
         path:'contact',
         element:<Contact />
+      },
+      {
+        path:'history',
+        element:<History />
       }
     ]
   }

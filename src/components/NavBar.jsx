@@ -27,6 +27,7 @@ function OffcanvasExample() {
                   <Offcanvas.Body className={styles.offcanvas_body}>
                      <Nav className="justify-content-end flex-grow-1">
                         <NavLink to='/' className={styles.nav_link}>Home</NavLink>
+                        <NavLink to='/history' className={styles.nav_link}>História</NavLink>
                         <NavLink to='/projects' className={styles.nav_link}>Projetos</NavLink>
                         <NavLink to='/contact' className={styles.nav_link}>Contato</NavLink>
                      </Nav>

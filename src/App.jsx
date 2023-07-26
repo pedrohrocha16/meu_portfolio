@@ -11,7 +11,6 @@ function App() {
       <div className='container'>
         <Outlet />
       </div>
-      <p>footer</p>
     </>
   )
 }

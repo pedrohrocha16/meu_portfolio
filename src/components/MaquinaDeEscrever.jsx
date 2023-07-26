@@ -6,7 +6,6 @@ export function MaquinaDeEscrever(props, name) {
 
    const escreverNaTela = (text, i = 0) => {
       if (i < text.length) {
-         setMostrarCursor(true)
          setText(text.slice(0, i + 1))
          setTimeout(() => escreverNaTela(text, i + 1), 60)
       } else if (i > text.length && props?.esconderCursor) {
@@ -14,7 +13,7 @@ export function MaquinaDeEscrever(props, name) {
       }
    }
    useEffect(() => {
-      setTimeout(() => escreverNaTela(props.text), props?.delay ?? 200)
+      setTimeout(() => escreverNaTela(props.text), props?.delay ?? 100)
    }, [])
 
    return (

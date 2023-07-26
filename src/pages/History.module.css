@@ -1,0 +1,67 @@
+.history {
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 80%;
+}
+
+.history h1 {
+   color: rgb(3, 218, 247);
+   font-family: 'Orbitron', sans-serif;
+   font-size: 20px;
+}
+
+.history p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 600;
+}
+
+.icons {
+   align-items: flex-end;
+   color: white;
+   display: flex;
+   font-size: 22px;
+   justify-content: center;
+   margin-top: 5rem;
+   width: 100vw;
+}
+
+h6 {
+   color: gold;
+   width: 200px;
+}
+
+.icons i {
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+   opacity: 0.5;
+   transition: 0.9s;
+}
+
+.icons i:hover {
+   color: rgb(3, 218, 247);
+   opacity: 1;
+}
+
+@media (min-width: 1000px) {}
+
+@media (min-width: 1000px) {
+   .history {
+      margin-top: 10rem;
+   }
+
+   .history h1 {
+      font-size: 25px;
+   }
+
+   .icons {
+      font-size: 35px;
+      /* margin-top: 18rem; */
+   }
+
+   .icons h6 {
+      font-size: 25px;
+      margin-right: 1rem;
+   }
+}
