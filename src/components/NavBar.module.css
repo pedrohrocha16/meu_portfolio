@@ -2,10 +2,10 @@
    display: flex;
    font-family: 'Orbitron', sans-serif;
    height: 100px;
-   justify-content: space-around;
+   justify-content: space-between;
    margin: 0 auto;
    padding: 0;
-   width: 90vw;
+   width: 100vw;
 }
 
 .nav span {

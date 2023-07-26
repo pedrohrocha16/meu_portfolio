@@ -81,7 +81,19 @@ h6 {
 
 /* 
 RESPONSIVE */
+@media (min-width: 450px) {
+   h3 {
+      font-size: 22px;
+   }
 
+   .nome {
+      font-size: 30px;
+   }
+
+   .profit {
+      font-size: 25px;
+   }
+}
 @media (min-width: 550px) {
    img {
       border-radius: 30px;
@@ -107,15 +119,15 @@ RESPONSIVE */
    }
 
    h3 {
-      font-size: 25px;
+      font-size: 28px;
    }
 
    .nome {
-      font-size: 30px;
+      font-size: 32px;
    }
 
    .profit {
-      font-size: 20px;
+      font-size: 29px;
    }
 
 }
@@ -147,7 +159,7 @@ RESPONSIVE */
    }
 
    .profit {
-      font-size: 30px;
+      font-size: 35px;
    }
 
    img {
