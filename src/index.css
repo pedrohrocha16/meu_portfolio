@@ -11,5 +11,9 @@ body {
 
 body {
    color: white;
-  background-color: #101010;
+   background-color: #101010;
+}
+#img_im {
+   height: 300px;
+   width: 300px;
 }

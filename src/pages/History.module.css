@@ -3,6 +3,8 @@
    display: flex;
    flex-direction: column;
    text-align: center;
+   margin: 0 auto;
+   padding: 0;
    width: 80%;
 }
 
@@ -15,16 +17,6 @@
 .history p {
    font-family: 'Roboto', sans-serif;
    font-weight: 600;
-}
-
-.icons {
-   align-items: flex-end;
-   color: white;
-   display: flex;
-   font-size: 22px;
-   justify-content: center;
-   margin-top: 5rem;
-   width: 100vw;
 }
 
 h6 {
@@ -43,8 +35,6 @@ h6 {
    color: rgb(3, 218, 247);
    opacity: 1;
 }
-
-@media (min-width: 1000px) {}
 
 @media (min-width: 1000px) {
    .history {
